@@ -8,6 +8,12 @@
 # dependencies
 /node_modules
 
+# firebase
+/functions/node_modules
+/public
+firebase-debug.log
+hosting.*.cache
+
 # IDEs and editors
 /.idea
 .project
