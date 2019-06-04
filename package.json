@@ -22,7 +22,19 @@
     "core-js": "^2.5.4",
     "rxjs": "~6.5.2",
     "tslib": "^1.9.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.9.1",
+    "axios": ">=0.19.0",
+    "tar": ">=2.2.2",
+    "webpack-dev-server": ">=3.1.11"
+  },
+  "comments": {
+    "dependencies": {
+      "resolve-git-security-vulnerabilities": {
+        "axios": ">=0.19.0",
+        "tar": ">=2.2.2",
+        "webpack-dev-server": ">=3.1.11"
+      }
+    }
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.800.0",
@@ -35,7 +47,7 @@
     "codelyzer": "^5.0.1",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~3.0.0",
+    "karma": "^4.1.0",
     "karma-chrome-launcher": "~2.2.0",
     "karma-coverage-istanbul-reporter": "^2.0.5",
     "karma-jasmine": "~1.1.2",
